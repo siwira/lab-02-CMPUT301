@@ -2,12 +2,14 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Tamu Siwira`
+- **CCID:** `siwira`
 
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
+
+https://stackoverflow.com/questions/4198425/updating-the-list-view-when-the-adapter-data-changes
 
 ## Verbal Collaboration
 
