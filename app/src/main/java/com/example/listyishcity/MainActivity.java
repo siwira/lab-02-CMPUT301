@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         confirmButton = findViewById(R.id.confirm_button);
         idx_to_delete=-1;
         new_city = null;
-//        set this element to be invisible
+//        set this element to be invisible on create
         input.setVisibility(View.INVISIBLE);
         confirmButton.setVisibility(View.INVISIBLE);
         textBox.setVisibility(View.INVISIBLE);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         String input_text = input.getText().toString().trim();
         if (!input_text.isEmpty()){
             new_city= new City(input_text);
-            input.getText().clear(); // clear the text box
+            input.getText().clear(); // clear the text box after writing
 //            String new_button_text = "Add " + input_text; //i had the order of the button usage wrong
 //            addButton.setText(new_button_text);
             if (new_city != null) {
